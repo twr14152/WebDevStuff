@@ -1,0 +1,5 @@
+Div and span were used a lot with earlier versions of html. 
+They are still included with current versions of html for backwards compatibility.
+They really only should be used for stylistic purposes going forward.
+The reason is they are too generic. Hard to search on.
+Its recommended to use more meaningful tags <header>,<main>,<section>,<article>,<nav> and <footer>
