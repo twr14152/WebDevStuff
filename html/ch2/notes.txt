@@ -3,3 +3,29 @@ They are still included with current versions of html for backwards compatibilit
 They really only should be used for stylistic purposes going forward.
 The reason is they are too generic. Hard to search on.
 Its recommended to use more meaningful tags <header>,<main>,<section>,<article>,<nav> and <footer>
+
+Headings and sub-headings
+<hgroup> <h1> - <h6> </hgroup>
+
+Complete headers, logo, banner, and headings <h1>-<h6> can be enclosed in <header> element
+
+groups of hyperlinks should be enclosed in <nav> element
+
+a <nav> element is just a wrapper around a menu horizontal in header and vertical in sidebar
+
+Body section
+  <header>
+    <main>
+      <footer> - contact info <address> element or legal details in <small>
+      </footer>
+    </main>
+  </header>
+  
+  
+  Section element will begin with section heading followed by one or more articles.
+  
+  Each document <article> element will article heading and followed by one or more <p> elements
+  
+  Stand alone info related to an article can be enclosed within an <aside> element nested in an <article> element
+  
+  
