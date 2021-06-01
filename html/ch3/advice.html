@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+  <!--
+    <abbr>text</abbr> abbreviation
+    <cite>text</cite> citation
+    <dfn>text</dfn> definision of term
+    <kbd>text<kbd> tag used in indicate input from user from keyboard
+  -->
+  <p> 
+    <abbr title="Jack The Dog">JTD</abbr>
+  </p>
+  <p>
+    <cite title="Gibby the Dog">GTD</cite>
+  </p>
+  <p>
+    <dfn title="The Dogs in my house">TDIMH</dfn>
+  </p>
+  <p>
+    <kbd titele="Press Y key on keyboard to execute a script.">Hit Y to continue.</kbd>
+  </p>
+  <script>
+    function showkey(e) {
+      if(e.keyCode ===89 || e.keyCode ===121)
+      {
+        alert('Y pressed. Thank you.')
+      }
+    }
+    document.onekeydown =
+    showkey
+  </script>
+
+  </body>
+</html>
