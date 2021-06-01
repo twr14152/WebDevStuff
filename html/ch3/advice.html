@@ -22,16 +22,24 @@
     <dfn title="The Dogs in my house">TDIMH</dfn>
   </p>
   <p>
-    <kbd titele="Press Y key on keyboard to execute a script.">Hit Y to continue.</kbd>
+    <kbd title="Press Y key on keyboard to execute a script.">Hit Y to continue.</kbd>
   </p>
   <script>
-    function showkey(e) {
-      if(e.keyCode ===89 || e.keyCode ===121)
+  function showkey(e) {
+      if(e.keyCode === 89 || e.keyCode === 121)
       {
         alert('Y pressed. Thank you.')
       }
+      else if (e.keyCode === 90 || e.keyCode === 122)
+      {
+        alert('#@%!!... You hit z')
+      }
+      else
+      {
+        alert('Mutha F__ker you didnt do it!')
+      }
     }
-    document.onekeydown =
+   document.onkeydown =
     showkey
   </script>
 
